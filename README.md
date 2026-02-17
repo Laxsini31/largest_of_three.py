@@ -1,2 +1,14 @@
-# largest_of_three.py
-python
+a=int(input())
+b=int(input())
+c=int(input())
+if a>b and a>c:
+    print("Largest:",a)
+elif b>c:
+    print("Largest:",b)
+else:
+    print("Largest:",c)
+Output
+5
+9
+3
+Largest: 9
